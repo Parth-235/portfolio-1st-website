@@ -1,0 +1,380 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    
+    
+
+}
+
+body {
+    background: #7077aa;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    margin : 0px;
+   
+    
+}
+
+nav {
+    margin-top: 0px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    background-color: black;
+    width: 100%;
+    
+    
+    
+    }
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: auto;
+}
+a {
+    color: #144978;
+    text-decoration: none;
+    font-size: 20px;
+}
+.left {
+    font-size: 5vh;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 10px;
+   
+}
+
+.leftsection {
+    font-size: 20px;
+    /* width: 50%; */
+    /* background-color: pink; */
+    margin-top: 70px;
+}
+
+.rightsection {
+
+    margin-left: 0;
+    margin-top: 90px;
+}
+
+.leftsection span {
+    font-size: 40px;
+    color: black;
+}
+.leftsection p {
+    font-size: 18px;
+    color: whitesmoke;
+    opacity: 0.5;
+}
+
+a:hover {
+    /* margin-bottom: 2px; */
+    color: bisque;
+    font-size: 17px;
+    transition: ease-in-out;
+    transition-duration: 0.2s;
+
+    
+}
+
+hr {
+    border: 2px solid rgb(25, 15, 44);
+    background-color: #38598b;
+    height: 2px;
+    margin: 30px 100px;
+}
+
+.secondsection {
+    font-size: 25px;
+    height: 80vh;
+    max-width: 80vw;
+    margin: auto;
+    
+
+}
+
+.text-grey {
+    color: #113f67; 
+    font-size: 15px;
+    
+   
+}
+
+.box {
+    height: 2px;
+    width: 80vw;
+    background-color: aliceblue;
+    margin: 56px 0;
+    display: flex;
+}
+
+.box .vertical {
+    background-color: aliceblue;
+    height: 80px;
+    width: 2px;
+    margin-right: auto;
+}
+
+
+
+.box .vertical i {
+    position: relative;
+    top: -35px;
+}
+
+.box .vertical p {
+    font-size: 20px;
+    color: rgb(62, 32, 87);
+}
+
+.box .vertical strong {
+    color: black;
+    font-size: 2vw;
+
+}
+footer {
+    margin-bottom: 0%;
+}
+
+.contact {
+    background-color: rgb(15, 15, 15);
+    
+}
+.contact ul{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+.contact ul li {
+    margin: 20px;
+   
+}
+/* progressbar */
+.form1 {
+    margin-left: 10px;
+}
+
+#progress {
+    font-size: 50px;
+    width: 45%;
+    height: 35px ;
+    margin-bottom: 10px;
+    align-content: center;
+
+}
+.form1{
+   
+    
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: 200px 200px;
+}
+.service {background: #38598b; 
+
+margin: 5px;
+}
+/* .services span converted to general; span */
+ span{
+color: black;
+font-size: 22px;
+}
+h3 {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 28px;
+text-align: center;
+}
+
+#top_x_div{
+    border:solid 4px black;
+}
+#piechart{
+    border:solid 4px black;
+
+}
+
+.projects {
+    display: flex;
+    height: 65vh;
+}
+.projects .leftdiv {
+    display: grid;
+    grid-template-columns: repeat(2 , auto);
+    row-gap: 5px;
+    column-gap: 5px;
+    grid-template-rows: repeat(2 , auto);
+    
+}
+
+.project {
+border: 3px solid;}
+
+.projects .rightdiv {
+    height: 65vh ; 
+
+}
+/*      hamburger     menu      */
+nav {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-around;
+  }
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  nav ul li {
+    padding: 20px;
+  }
+  nav label {
+    display: none;
+  }
+  #click {
+    display: none;
+  }
+  #click:checked~nav ul{
+    display: block; }
+    
+    /* reach me form */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 0px;
+  }
+
+  .charts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: auto;
+}
+@media screen and (max-width: 768px) {
+    nav {
+      height: 90px;
+    }
+    nav label {
+      display: block;
+    }
+    nav ul {
+      flex-direction: column;
+      position: absolute;
+      top: 80px;
+      background-color: black;
+      color: white;
+      width: 100%;
+      display: none;
+    }
+    .leftsection{
+        margin-left: auto;
+    }
+    .firstsection {
+        flex-direction: column;
+        width: 100%;
+        padding-left: 5px;
+    }
+    .rightsection{
+      margin: auto;
+       padding-left: 0;
+    }
+    
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 250px;
+}
+
+
+
+    .contact ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 0;
+    
+}
+
+.vertical {
+    display: flex;
+}
+
+.box .vertical p {
+    font-size: 2vw;
+    color: rgb(62, 32, 87);
+}
+footer {
+    margin-top: 0px;
+}
+
+.contact {
+    background-color: rgb(15, 15, 15);
+    
+}
+.contact ul{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+.contact ul li {
+    margin: 20px;
+}
+
+#top_x_div{
+    margin-left: 15%;
+    
+}
+.projects .rightdiv {
+    margin-left: 100px ; 
+
+
+}
+.secondsection {
+    
+}
+
+}
